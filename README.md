@@ -1,11 +1,11 @@
 Charity Navigator Scraper
 =====================================================================
 Jeffrey Horn  
-[@jrhorn424](http://twitter.com/jrhorn424)  
-`<jrhorn424@gmail.com>`
+`<jrhorn424@gmail.com>`  
+[@jrhorn424](http://twitter.com/jrhorn424)
 
 ## What Is It?
-This scraper uses the Search API to request an XML stream of all charities for which Charity Navigator (CN) provides data. Scrapy then processes the URLs gathered and stores information about each charity in JSON format. A user script can be used to convert this JSON data into a friendlier format, such as CSV.
+This scraper uses the Search API to request an XML stream of all charities for which Charity Navigator (CN) provides data. Scrapy then processes the URLs gathered and stores information about each charity. User scripts can then be used to convert this data into friendlier formats, such as JSON or CSV.
 
 ## Why a Scraper?
 Charity Navigator provides only a Search API at the moment. This is useful for republishing charity information on another website, but does not offer backend access to charity data. Access to these data are important for statistical analysis. The scraper locates and stores these data in a human- and machine-readable form to facilitate this analysis.
