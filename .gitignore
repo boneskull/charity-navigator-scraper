@@ -1,3 +1,2 @@
 /search-api.pdf
-/test.xml
-/debugger
+*.pyc
